@@ -1,0 +1,111 @@
+/* PÁGINA */
+* {
+    padding: 0px;
+    margin: 0px; 
+}
+
+/* NAVBAR */
+.menuFixo { 
+    position:fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 4; 
+    overflow: hidden;
+    background-color: #5f4a21; 
+}
+
+nav a {
+    float: left;
+    padding: 18px 18px;
+    color: white;
+    text-decoration: none;  
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav div a:hover {
+    background-color:#503f1c;
+    border-radius: 10px; 
+}
+
+nav section div {
+    margin-right: 60px;
+}
+
+.navbar {
+    display: flex;
+    float: left;  
+    margin-top: 42px; 
+}
+
+#logo {
+    display: flex;
+    float: left;
+    background-color: #5f4a21; 
+    margin-left: 80px;
+    margin-right: 80px; 
+}
+
+/* MAIN */
+main {
+    margin-top: 10%;
+    margin-left: 50px;
+}
+
+.produtos {
+    padding: 12px;
+}
+
+.stick {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.stick + .produtos {
+    padding-top: 50px;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: #5f4a21;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+section h3 {
+    padding-top: 40px;
+    padding-left: 130px;
+}  
+
+.logoRedes-footer { 
+    margin-top: 20px;
+    padding-left: 45px;
+}
+
+#insta {
+    display: flex;
+    float: left;
+    margin-left: 65px;
+    margin-right: 10px;
+}
+
+#linkedin {
+    display: flex;
+    float: left;
+    margin-right: 10px;
+}
+
+.contatos-footer {  
+    display: flex;
+    float: right ;
+}
+
+.h3 {
+    padding-top: 40px;
+    
+} 
